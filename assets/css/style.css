@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Gothic:wght@700&display=swap');
 /*
 //Rage Template
 //Designerd by: http://bootstrapthemes.co
@@ -22,7 +22,50 @@
  14. FOOTER - LINE NO 2020
 ==========================================*/
 
+.logo{
+    font-family: 'Black Han Sans', sans-serif;
+    /* color:#444444; */
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
 
+h1[class="text-white"]{
+    font-family: 'Nanum Gothic', sans-serif !important;
+    padding-top:6px;
+    animation-name: titleAnimation;
+    animation-timing-function:ease;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes titleAnimation {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  }
+  20% {
+      transform: translateY(0);
+      opacity: 1;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  80% {
+       transform: translateY(0);
+       opacity: 1;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  100% {
+       transform: translateY(50px);
+       opacity: 0;
+      -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+      clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+    
+  }
+}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -740,7 +783,7 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
-    padding-bottom: 7.143rem;
+    /* padding-bottom: 7.143rem; */
     overflow: hidden;
 }
 .head_title h2{
@@ -1015,7 +1058,7 @@ Nav Menu style
 Home Section style
 ==================*/
 .home{
-    background: url(../images/background/header.jpg) no-repeat bottom center;
+    background: url(../images/background/header.jpg) no-repeat top center;
     background-size: cover;
     position: relative;
 }
@@ -1341,7 +1384,7 @@ Portfolio section style
 .home_btns a,
 .impress_btns a,
 .portfolio_hover_icon a{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .portfolio_hover_icon a i{

@@ -990,6 +990,11 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 }
 
 @media (max-width: 992px) {
+    .home_text h1{
+        font-size: 35px !important;
+        line-height: 1.8 !important;
+        margin-left:15px;
+    }
     /* Navbar Responsive
     =================================*/ 
     nav.navbar.bootsnav .navbar-brand    {
@@ -1360,6 +1365,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     
     nav.navbar.bootsnav.navbar-fixed .logo-scrolled{
         display: block !important;
+        margin-top: -3px;
+        
     }
 
     nav.navbar.bootsnav.navbar-fixed .logo-display{
