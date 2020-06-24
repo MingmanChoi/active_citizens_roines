@@ -21,7 +21,12 @@
  13. THU SUBCRIBS - LINE NO 1935
  14. FOOTER - LINE NO 2020
 ==========================================*/
-
+td{
+    margin:2px;
+}
+td:nth-child(1){
+    text-align: center;
+}
 .logo{
     font-family: 'Black Han Sans', sans-serif;
     /* color:#444444; */
