@@ -41,7 +41,12 @@ Author URI: http://www.xpeedstudio.com
     .sm-m-top-50{
         margin-top:50px;
     }
-
+    .about_btns.m-top-40 > a{
+      margin-bottom: 50px;
+    }
+    .roomy-100{
+        padding:30px 0;
+    }
 
 
 }
